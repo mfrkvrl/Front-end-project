@@ -1,0 +1,288 @@
+*{
+    box-sizing: border-box;
+    
+}
+html{
+    font-family: 'Titillium Web', sans-serif;
+}
+body{
+    background: #fefefe;
+    
+}
+header{
+    display: flex;
+    justify-content: space-around;
+    margin-bottom: 4rem;
+    margin-top: 2rem;
+}
+.logo{
+    font-size: 1.5rem;
+}
+.nav-link{
+    color: #185ADB;;
+    text-decoration: none;
+    font-size: 1.3rem;
+    font-weight: 600;
+    margin:0 1rem;
+    padding: .4rem;
+    transition:all .2s;
+}
+.nav-link:hover{
+    text-shadow: .5px .1px  #836BDC;
+}
+.first-section{
+    display: flex;
+    justify-content: center;
+    color: #0A1931;
+    
+}
+.f-section-wrapper{
+    font-size: 2.5rem;
+    display: flex;
+    padding: 0 2rem;
+    flex-direction: column;
+    align-items: center;
+    /* width: 80%; */
+    overflow: hidden;
+}
+.f-p{
+    font-size: 1.2em;
+    font-weight: 600;
+}
+.s-p{
+    font-size: .6em;
+    color:#2F2F2F;
+    font-weight: 600;
+}
+.second-section{
+    margin-top: 7rem;
+    /* padding: 0 2rem; */
+    /* overflow: hidden; */
+
+}
+
+.s-section-wrapper{
+    display: flex;
+    /* height: 75%; */
+    /* padding: 1rem; */
+}
+.second-section h3{
+    color: #185ADB;;
+}
+.project{
+    margin: 0 1rem;
+    /* height: auto; */
+    padding: 1rem;
+    font-weight: 700;
+    border-right: 1px solid #ccc;
+}
+/* .project-2, .project-4{
+    align-self: flex-end;
+}
+.project-1, .project-3{
+    align-self: flex-start;
+} */
+.project-wrapper{
+    display: flex;
+}
+.pr-btn{
+    text-decoration: none;
+    color:#0A1931;
+    font-size: 1.5rem;
+    box-shadow: 1px 1px 10px #ccc  ;
+    padding: .5rem;
+    transition: all .3s;
+}
+.pr-btn:hover{
+    background: #ccc;
+    /* color: #185ADB; */
+}
+.section-3{
+ margin-top: 5rem;
+ padding: 0 2rem;
+display: flex;
+justify-content: center;
+}
+.section-3-wrapper{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+/* .project-wrapper{
+    display: flex;
+} */
+.s-3-h{
+    font-size: 4rem;
+}
+.l-wrapper{
+    display: flex;
+    /* justify-content: space-evenly; */
+}
+.l{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    color: #fff;
+    font-size: 1.2rem;
+    padding: 5rem;
+    font-weight: 600;
+}
+.l-1{
+    background: 
+    #185ADB;
+}
+.l-2{
+    background: #0A1931;
+}
+.l-3{
+    background: #2F2F2F;
+}
+.l i{
+    font-size: 4em;
+}
+.section-4{
+ margin: 7rem 0;
+ display: flex;
+ justify-content: center;
+
+}
+.section-4-wrapper{
+    display: flex;
+    font-size: 1.1rem;
+    box-shadow: 0 0 15px -10px #2F2F2F;
+    padding:0 1rem;
+
+}
+.tabs{
+    margin: 0 2rem;
+    color: #0A1931;
+    /* border-radius: 8px; */
+    padding:1rem;
+}
+.tabs a{
+    color: #0A1931;
+    text-decoration: none;
+}
+.tabs ul{
+    list-style: none;
+}
+.s-4-h{
+    border-right: 1px solid #0A1931;
+    padding-right: 1rem;
+}
+.footer{
+    display: flex;
+    justify-content: space-evenly;
+    background: #ccc;
+}
+@media all and (max-width:1224px){
+    .social-media-list{
+        display: flex;
+        justify-content: center;
+
+    }
+    .social-media-list li{
+        margin: 0 1rem;
+        
+    }
+    .s-section-wrapper{
+        display: flex;
+        flex-direction: column;
+    }
+    .second-section{
+        margin-top: 1rem;
+    }
+    .section-3{
+        margin-top: 1rem;
+       }
+       .project{
+        border-bottom: 1px solid #ccc;
+        border-right: unset;
+        overflow: hidden;
+    }
+    .l{
+        padding: 3rem;
+    }
+    .section-4{
+        margin: 3rem 0;
+       }
+       .tabs{
+           margin: 0 .5rem;
+           padding: .5rem;
+       }
+}
+@media all and (max-width:992px){
+    .tabs{
+        margin: 0 .5rem;
+        padding: none;
+    }
+    .l{
+        padding: 1rem;
+    }
+    header{
+        margin-bottom: 1rem;
+    }
+}
+@media all and (max-width:807px){
+.project-wrapper{
+    flex-direction: column;
+}
+.nav-link{
+    margin: unset;
+}
+.second-section{
+    padding: 0 1rem;
+
+}
+.logo{
+    font-size: 1rem;
+}
+.f-section-wrapper{
+    font-size: .9rem;
+}
+.f-p{
+    font-size: 1.5rem;
+}
+.s-p{
+    font-size: 1rem;
+}
+.project{
+    margin: unset;
+    padding: unset;
+
+}
+.l-wrapper{
+    flex-direction: column;
+}
+header{
+  margin-bottom: 1rem;
+  margin-top: 1rem;
+
+}
+.nav-link{
+    font-size: .6rem;
+    margin: 0 .2rem;
+}
+.project{
+    margin: .1rem;
+    padding: .1rem;
+   
+}
+.s-3-h{
+    font-size: 1.5rem;
+}
+.section-4{
+    margin: 1rem 0;
+    /* width: 100%; */
+}
+.section-4-wrapper{
+    flex-direction: column;
+    width: 90%;
+}
+.s-4-h{
+    border-right: unset;
+    padding-right: unset;
+    border-bottom: 1px solid #0A1931;
+}
+}
